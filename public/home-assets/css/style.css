@@ -1,0 +1,129 @@
+*, ::before, ::after {
+  --tw-translate-x: 0;
+  --tw-translate-y: 0;
+  --tw-rotate: 0;
+  --tw-skew-x: 0;
+  --tw-skew-y: 0;
+  --tw-scale-x: 1;
+  --tw-scale-y: 1;
+  --tw-pan-x:  ;
+  --tw-pan-y:  ;
+  --tw-pinch-zoom:  ;
+  --tw-scroll-snap-strictness: proximity;
+  --tw-ordinal:  ;
+  --tw-slashed-zero:  ;
+  --tw-numeric-figure:  ;
+  --tw-numeric-spacing:  ;
+  --tw-numeric-fraction:  ;
+  --tw-ring-inset:  ;
+  --tw-ring-offset-width: 0px;
+  --tw-ring-offset-color: #fff;
+  --tw-ring-color: rgb(59 130 246 / 0.5);
+  --tw-ring-offset-shadow: 0 0 #0000;
+  --tw-ring-shadow: 0 0 #0000;
+  --tw-shadow: 0 0 #0000;
+  --tw-shadow-colored: 0 0 #0000;
+  --tw-blur:  ;
+  --tw-brightness:  ;
+  --tw-contrast:  ;
+  --tw-grayscale:  ;
+  --tw-hue-rotate:  ;
+  --tw-invert:  ;
+  --tw-saturate:  ;
+  --tw-sepia:  ;
+  --tw-drop-shadow:  ;
+  --tw-backdrop-blur:  ;
+  --tw-backdrop-brightness:  ;
+  --tw-backdrop-contrast:  ;
+  --tw-backdrop-grayscale:  ;
+  --tw-backdrop-hue-rotate:  ;
+  --tw-backdrop-invert:  ;
+  --tw-backdrop-opacity:  ;
+  --tw-backdrop-saturate:  ;
+  --tw-backdrop-sepia:  ;
+}
+
+@font-face {
+    font-family: 'HurmeGeometricSans4-SemiBold';
+    src: url('HurmeGeometricSans4-SemiBold.otf');
+}
+body {
+    margin: 0;
+}
+
+.main-container {
+    margin-top: 200px;
+}
+
+.btn-download {
+    background-color: #EBEBEB !important;
+    border-radius: 8px;
+    color: #6B7280;
+    font-weight: 400;
+    font-size: 18px;
+    border: none;
+    opacity: 1;
+}
+
+.inlook-heading {
+    line-height: 1;
+    font-size: 50px;
+    font-family: 'HurmeGeometricSans4-SemiBold';
+}
+
+.sitename {
+    font-size: 30px;
+    font-family: 'HurmeGeometricSans4-SemiBold';
+}
+
+.paragraph {
+    color: #878D98;
+    line-height: 2rem;
+    font-size: 20px;
+    font-weight: 300;
+}
+
+.btn-appstore {
+    background-color: black !important;
+    border-radius: 8px;
+    color: white;
+    font-weight: 400;
+    font-size: 18px;
+    border: none;
+    opacity: 1;
+}
+
+.btn-appstore:hover {
+    background-color: #2563EB !important;
+    color: white;
+}
+
+.nav-link {
+    font-size: 15px;
+    font-weight: 400;
+    color: #9CA3AF !important;
+}
+
+.nav-link:hover {
+    color: #2563EB !important;
+}
+.bg-white\/40 {
+  background-color: rgb(255 255 255 / 0.4);
+}
+
+@media(min-width:800px) {
+
+    .paragraph {
+        font-size: 18px !important;
+    } 
+    
+    .inlook-heading {
+        font-size: 70px;
+    }
+
+    .nav {
+        flex-direction: column;
+        text-align: center;
+        font-size: 40px;
+}
+
